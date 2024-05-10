@@ -1,0 +1,110 @@
+:root{
+    --color-primary: #4E31AA;
+    --color-secondary: #FC5576;
+    --color-text-light : #efeded;
+    --color-text-dark : #272626;
+    font-family: 'Nunito', sans-serif;
+}
+.bookappointment-main{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+}
+.bookappointment-container{
+    margin: 70px 0px;
+    width: 70%;
+}
+.bookappointment-container .top{
+    background: var(--color-primary);
+    border-radius: 15px;
+    border-bottom-left-radius:0 ;
+    border-bottom-right-radius:0 ;
+    padding: 10px 0px;
+    margin-bottom: -5px;
+    color: var(--color-text-light);
+    text-transform: uppercase;
+}
+.bookappointment-container .bottom{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-right:60px;
+    padding-left: 60px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px rgb(188, 187, 187);
+    background: white;
+    border-top-left-radius:0 ;
+    border-top-right-radius:0 ;
+}
+
+.bookappointment-container h1{
+    text-align: center;
+}
+
+.bookappointment-container .input-box input, label, textarea{
+    width: 100%;
+    display: block;
+}
+.bookappointment-container .input-box input, select, textarea{
+    border: 1px solid var(--color-primary);
+    border-radius: 8px;
+    outline: 2;
+    outline-color: var(--color-secondary);
+}
+.bookappointment-container .input-box textarea{
+    height: 100px;
+}
+.bookappointment-container .input-box select{
+    width: 100%;
+}
+.bookappointment-container .input-box input, select{
+    font-size: 16px;
+    margin-bottom: 12px;
+    padding: 10px;
+}
+.bookappointment-container .input-box label{
+    margin-left: 10px;
+}
+.bookappointment-container .radio-btn{
+    margin: 20px 0px;
+}
+.bookappointment-container .radio-btn input, label{
+    display: initial;
+    width: auto;
+}
+.bookappointment-container .radio-btn input[type="radio"]{
+    display: none;
+}
+.bookappointment-container .radio-btn label{
+    padding: 10px 15px ;
+    border-radius: 50px;
+    color: var(--color-text-dark);
+    border: 1.5px solid var(--color-primary);
+    cursor: pointer;
+}
+.bookappointment-container .radio-btn input[type="radio"]:checked + label{
+    background-color: var(--color-primary);
+    color: var(--color-text-light);
+}
+.bookappointment-container .submit-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.bookappointment-container .submit-btn input{
+    width: fit-content;
+    height: fit-content;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+    margin-right: 8px;
+    background: var(--color-primary);
+    color: var(--color-text-light);
+    cursor: pointer;
+    transition: 0.6s ease;
+}
+.bookappointment-container .submit-btn input:hover{
+    background: var(--color-secondary);
+}

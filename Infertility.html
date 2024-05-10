@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/footer1.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/mediascreen.css">
+    <link rel="icon" href="images/logo-wbg.png">
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/main.js"></script>
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>बांझपन उपचार सेवा</title>
+</head>
+
+<body>
+    <header class="nav">
+        <div class="nav-body">
+            <div class="header-items">
+                <div class="header-left">
+                    <ul>
+                        <li><a href="#"><img src="images/fb.png" alt=""></a></li>
+                        <li><a href="#"><img src="images/instagram.png" alt=""></a></li>
+                        <li><a href="#"><img src="images/twitter.png" alt=""></a></li>
+                    </ul>
+                </div>
+                <div class="header-right">
+                    <ul>
+                        <li><img src="images/phone-call.png" alt="" style="margin-right: 10px;">+91-8235501444
+                        </li>
+                        <li style="margin-right: 0px;"><img src="images/mail.png" alt=""
+                                style="margin-right: 10px; width: 16px;">care@pakurivfandnursinghome.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="navigation-items">
+                <div class="item-left">
+                    <img src="images/logo-wbg.png" alt="">
+                    <div>
+                        <p class="logo-text" style="font-weight: 800; color: var(--color-primary); margin-top: 10px;">
+                            पाकुड़ नर्सिंग होम</p>
+                        <p class="logo-text1"
+                            style="font-weight: 500; color: var(--color-secondary); margin-top: -20px;">
+                            एवं प्रसूति केंद्र</p>
+                    </div>
+
+                </div>
+                <div class="item-middle">
+                    <!-- navigation *****8 -->
+                    <nav class="navbar" id="navbar">
+                        <ul>
+                            <li><a href="index.html">गृह</a></li>
+
+
+                            <li><a href="aboutus.html">हमारे बारे में<span></span></a>
+
+                            </li>
+                            <li><a href="blog_categories.html">
+                                    ब्लॉग <span></span></a>
+
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="services.html" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+
+                                    सेवा
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="cityscan.html">सीटी स्कैन</a></li>
+                                    <li><a class="dropdown-item" href="ecgtest.html">ईसीजी जाँच</a></li>
+                                    <li><a class="dropdown-item" href="Echocardiography.html">इकोकार्डियोग्राफी</a></li>
+                                    <li><a class="dropdown-item" href="Infertility.html">बांझपन
+                                            इलाज</a></li>
+                                    <li><a class="dropdown-item" href="Hysteroscopy.html">गर्भाशयदर्शन</a></li>
+                                    <li><a class="dropdown-item" href="Ureteroscopy.html">यूरेटेरोस्कोपी</a></li>
+                                    <li><a class="dropdown-item" href="Appendectomy.html">एपेंडेक्टोमी</a></li>
+                                    <li><a class="dropdown-item" href="hydrocele.html">हाइड्रोसील और हर्निया
+                                            शल्य चिकित्सा</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    हमारी टीम
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="team.html">डाक्टर</a></li>
+                                    <li><a class="dropdown-item" href="team.html">स्टाफ विवरण</a></li>
+
+                                </ul>
+                            </li>
+                            <li><a href="contact.html">संपर्क करें</a></li>
+                        </ul>
+                    </nav>
+                    <!-- navigation end ********* -->
+
+                </div>
+                <div class="item-right">
+                    <a href="bookapointment.html">बुक करना</a>
+                </div>
+                <div class="menu-icon" id="menu-click-icon" onclick="menuClick()">
+                    ☰
+                </div>
+                <div class="menu-icon" id="menu-close-icon" onclick="menuClose()">
+                    X
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <div class="nav-mobile" id="nav-mobile">
+        <div class="nav-frame">
+            <nav class="mobile-navbar" id="mobile-navbar">
+                <ul>
+                    <li><a href="index.html">घर</a></li>
+
+
+                    <li><a href="aboutus.html">हमारे बारे में <span></span></a>
+
+                    </li>
+                    <li><a href="blog_categories.html">ब्लॉग <span></span></a>
+
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="services.html" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            सेवाएं
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="cityscan.html">
+                                    सीटी स्कैन</a></li>
+                            <li><a class="dropdown-item" href="ecgtest.html">ईसीजी टेस्ट</a></li>
+                            <li><a class="dropdown-item" href="Echocardiography.html">इकोकार्डियोग्राफी</a></li>
+                            <li><a class="dropdown-item" href="Infertility.html">बांझपन का इलाज</a></li>
+                            <li><a class="dropdown-item" href="Hysteroscopy.html">गर्भाशयदर्शन</a></li>
+                            <li><a class="dropdown-item" href="Ureteroscopy.html">यूरेटेरोस्कोपी</a></li>
+                            <li><a class="dropdown-item" href="Appendectomy.html">एपेंडेक्टोमी</a></li>
+                            <li><a class="dropdown-item" href="hydrocele.html">हाइड्रोसील और हर्निया सर्जरी</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Our Team
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="team.html">डॉक्टरों</a></li>
+                            <li><a class="dropdown-item" href="team.html">स्टाफ विवरण</a></li>
+
+                        </ul>
+                    </li>
+                    <li><a href="#">संपर्क करें</a></li>
+                    <li><a href="bookapointment.html">बुक करना</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="services-main">
+        <div class="services-frame">
+            <div class="services-container">
+                <div class="main-top">
+                    <h1>बांझपन का इलाज</h1>
+                    <p>प्रजनन विशेषज्ञ डॉक्टर, इनफर्टिलिटी का इलाज, उपरोक्त परीक्षणों के आधार पर तय करता है। इलाज में
+                        प्रजनन दवाओं के साथ उत्तेजक ओव्यूलेशन,अंतर्गर्भाशयी गर्भाधान (IUI), अथवा प्रजनन क्षमता को बहाल
+                        करने के लिए सर्जरी आदि शामिल हो सकते हैं और इसका निर्धारण पूरी तरह से महिला की स्थिति पर निर्भर
+                        करता है।</p>
+                </div>
+                <div class="main-image">
+                    <img src="images/treatment-options-infertility.png" alt="">
+                </div>
+                <div class="services-dtl">
+                    <h1>सुरक्षित प्रसवपूर्व अल्ट्रासाउंड: आपकी सुरक्षा <br> और आपका बच्चा.</h1>
+                    <p>प्रसव पूर्व अल्ट्रासाउंड एक गैर-आक्रामक प्रक्रिया है जिसमें एक हाथ में पकड़ने योग्य उपकरण लगाना
+                        शामिल होता है जिसे a कहा जाता है
+                        मां के पेट पर ट्रांसड्यूसर. यह ट्रांसड्यूसर उच्च आवृत्ति वाली ध्वनि तरंगें उत्सर्जित करता है जो
+                        उछलती हैं
+                        बच्चे की संरचनाओं से हटा दिया जाता है और डिवाइस द्वारा कैप्चर कर लिया जाता है, जिससे वास्तविक
+                        समय की छवियां उत्पन्न होती हैं।
+                        अल्ट्रासाउंड स्वास्थ्य सेवा प्रदाताओं को वृद्धि और विकास की बारीकी से निगरानी करने की अनुमति
+                        देता है
+                        गर्भावस्था के विभिन्न चरणों में भ्रूण। यह गर्भावधि जैसे कारकों को निर्धारित करने में मदद करता है
+                        उम्र, भ्रूण का आकार, दिल की धड़कन और अंग गठन, यह सुनिश्चित करते हुए कि बच्चा अच्छी तरह से प्रगति
+                        कर रहा है।
+                        <br><br>
+                        प्रसवपूर्व अल्ट्रासाउंड शिशु में संभावित असामान्यताओं या जटिलताओं का पता लगा सकता है
+                        विकास। यह संरचनात्मक दोष, विकास प्रतिबंध आदि जैसी स्थितियों की पहचान कर सकता है
+                        कुछ आनुवंशिक विकार. शीघ्र पता लगने से समय पर चिकित्सीय हस्तक्षेप या आगे भी मदद मिलती है
+                        नैदानिक ​​परीक्षण, बेहतर प्रबंधन और उपचार विकल्पों की सुविधा प्रदान करते हैं।
+                        <br><br>
+                        अल्ट्रासाउंड गर्भवती मां के स्वास्थ्य का मूल्यांकन करने में भी मदद करता है। इसके बारे में
+                        जानकारी प्रदान करता है
+
+                        गर्भाशय, प्लेसेंटा और आस-पास की संरचनाएं, प्लेसेंटा प्रीविया जैसी किसी भी संभावित चिंता की पहचान
+                        करना
+                        (जब नाल आंशिक रूप से या पूरी तरह से गर्भाशय ग्रीवा को ढक लेती है) या गर्भाशय में असामान्यताएं
+                        आकार
+                        जो गर्भावस्था को प्रभावित कर सकता है।
+                    </p>
+                    <h1>रोगी प्रक्रियाएं: स्वास्थ्य देखभाल को सरल बनाना।</h1>
+                    <p>हेल्थकेयर को सरल बनाना स्वास्थ्य सेवा में लागू विभिन्न प्रक्रियाओं और प्रोटोकॉल को संदर्भित करता
+                        है
+                        रोगी के अनुभव को सुव्यवस्थित और बढ़ाने के लिए सेटिंग्स। इन प्रक्रियाओं का उद्देश्य सरलीकरण करना
+                        है
+                        स्वास्थ्य देखभाल सेवाओं का वितरण, दक्षता, प्रभावशीलता और रोगी संतुष्टि सुनिश्चित करना।
+                        रोगी प्रक्रियाओं में अक्सर कुशल नियुक्ति शेड्यूलिंग सिस्टम शामिल होते हैं जो प्रतीक्षा को कम
+                        करते हैं
+                        समय और स्वास्थ्य देखभाल संसाधनों के आवंटन का अनुकूलन करें। इससे मरीजों को समय पर पहुंचने में मदद
+                        मिलती है
+                        देखभाल, अनावश्यक देरी या असुविधाओं को कम करना।</p>
+                    <p><span>✔</span>गर्भावस्था के दौरान स्वस्थ पोषण और व्यायाम विशेषज्ञ सलाह और प्रश्नोत्तर</p>
+                    <p><span>✔</span>गर्भावस्था की जटिलताएँ और उच्च जोखिम सहायता, प्रसवोत्तर सहायता और नवजात शिशु की
+                        देखभाल
+                    </p>
+                    <p><span>✔</span>गर्भावस्था, जन्म योजना और तैयारी में साथी का सहयोग और भागीदारी</p>
+                    <p><span>✔</span>गर्भावस्था सुरक्षा दिशानिर्देश और सावधानियां प्रसवोत्तर सहायता और नवजात शिशु की
+                        देखभाल</p>
+                    <p><span>✔</span>भावनात्मक भलाई और गर्भावस्था हार्मोन भाई-बहनों को नए बच्चे के लिए तैयार करते हैं।
+                    </p>
+                    <p>रोगी प्रक्रियाओं में लागत प्रदान करने सहित स्पष्ट और पारदर्शी बिलिंग प्रक्रियाएं शामिल हो सकती
+                        हैं
+                        बीमा दावों का अनुमान लगाना और उन्हें सुविधाजनक बनाना। इसके अतिरिक्त, वे सहायता या संसाधन भी
+                        प्रदान कर सकते हैं
+                        वित्तीय सहायता या भुगतान योजना चाहने वाले मरीजों के लिए समान पहुंच सुनिश्चित करना
+                        स्वास्थ्य देखभाल सेवाएँ। रोगी प्रक्रियाओं में स्पष्ट और पारदर्शी बिलिंग प्रक्रियाएँ शामिल हो
+                        सकती हैं,
+                        जिसमें लागत अनुमान प्रदान करना और बीमा दावों को सुविधाजनक बनाना शामिल है। इसके अतिरिक्त, वे कर
+                        सकते हैं
+                        वित्तीय सहायता या भुगतान योजना चाहने वाले रोगियों के लिए सहायता या संसाधन प्रदान करना सुनिश्चित
+                        करना
+                        स्वास्थ्य सेवाओं तक न्यायसंगत पहुंच।</p>
+                </div>
+
+                <div class="services-video">
+                    <div class="video">
+                        <video src="images/1089148995-preview.mp4" controls autoplay></video>
+                    </div>
+                </div>
+
+                <div class="faq-section">
+                    <div class="heading">
+                        <h1>सामान्य प्रश्न</h1>
+                    </div>
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    अकॉर्डियन आइटम #1
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the first item's accordion body.</strong> It is shown by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Accordion Item #2
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Accordion Item #3
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the third item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="letest-project-section">
+                    <div class="head-title">
+                        <h1>नयी परियोजनाएं</h1>
+                        <a href="#">सभी को देखें ➔</a>
+                    </div>
+
+                    <div class="letest-project-slider">
+
+                        <section class="slider-container">
+                            <div class="slider-images">
+
+
+                                <div class="slider-img">
+                                    <img src="Images/pr1.png" alt="3" />
+                                    <h1>गर्भावस्था पोर्टल</h1>
+                                    <div class="details">
+                                        <h2>गर्भावस्था पोर्टल</h2>
+                                    </div>
+                                </div>
+                                <div class="slider-img active">
+                                    <img src="Images/pr2.png" alt="4" />
+                                    <h1>गर्भावस्था पोर्टल</h1>
+                                    <div class="details">
+                                        <h2>गर्भावस्था पोर्टल</h2>
+
+                                    </div>
+                                </div>
+
+
+                                <div class="slider-img">
+                                    <img src="Images/pr1.png" alt="7" />
+                                    <h1>गर्भावस्था पोर्टल</h1>
+                                    <div class="details">
+                                        <h2>गर्भावस्था पोर्टल</h2>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <script src="js/jQuery.js"></script>
+                        <script>
+                            jQuery(document).ready(function ($) {
+                                $(".slider-img").on("click", function () {
+                                    $(".slider-img").removeClass("active");
+                                    $(this).addClass("active");
+                                });
+                            });
+                        </script>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- footer ***********  -->
+    <div class="footer">
+        <div class="footer-frame">
+            <div class="footer-container">
+                <div class="line">
+                    <h1>क्या आप आसानी से अपॉइंटमेंट लेना चाहते हैं?</h1>
+                    <a href="#">यहां संपर्क करें ➔</a>
+                </div>
+                <div class="links">
+                    <div class="left-links">
+                        <div class="item-left">
+                            <img src="images/logo-wbg.png" alt="">
+                            <div style="margin-left:8px;">
+                                <p
+                                    style="font-weight: 800; font-size: 15px; color: var(--color-primary); margin-top: 10px;">
+                                    पाकुड़ नर्सिंग होम</p>
+                                <p
+                                    style="font-weight: 500; font-size: 13px; color: var(--color-secondary); margin-top: -15px;">
+                                    एवं प्रसूति केंद्र</p>
+                            </div>
+                        </div>
+                        <div class="text">
+                            <p>सुनिश्चित करें कि आप लगातार विकसित हो रहे परिदृश्य से भली-भांति परिचित और अद्यतित रहें
+                                नवीनतम समाचारों से अवगत रहकर यूएसए स्वास्थ्य की</p>
+                        </div>
+                        <div class="social-icon">
+                            <a href="#"><img src="icons/twitter.svg" alt=""></a>
+                            <a href="#"><img src="icons/fb.svg" alt=""></a>
+                            <a href="#"><img src="icons/insta.svg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="middle-links">
+                        <h1>साइट नेविगेशन</h1>
+                        <div class="navigation-links">
+                            <div class="left">
+                                <ul>
+                                    <li><a href="index.html">मुख पृष्ठ</a></li>
+                                    <li><a href="services.html">हमारी सेवाएँ</a></li>
+                                    <li><a href="blog.html">कार्यों का पोर्टफोलियो</a></li>
+                                    <li><a href="#">ताजा खबर</a></li>
+                                    <li><a href="contact.html">हमारा संपर्क</a></li>
+                                </ul>
+
+                            </div>
+                            <div class="right">
+                                <ul>
+                                    <li><a href="bookapointment.html">नियुक्ति</a></li>
+                                    <li><a href="#">स्त्री रोग क्लिनिक</a></li>
+                                    <li><a href="#">दंत्य प्रतिस्थापन</a></li>
+                                    <li><a href="#">ट्राइसेमेस्टर देखभाल</a></li>
+                                    <li><a href="#">मातृ अभ्यास</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-links">
+                        <h1>नियुक्ति करते हैं</h1>
+                        <div class="time-date">
+                            <img src="icons/time.svg" alt="">
+                            <p>9 AM - 10 PM, सोमवार - शनिवार</p>
+                        </div>
+                        <div class="call-btn">
+                            <div class="icon">
+                                <img src="icons/call.svg" alt="">
+                            </div>
+                            <div class="call-text">
+                                <h4>हमें कॅाल करें</h4>
+                                <p>(+91) 8235501444</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <hr>
+                <div class="copyright">
+                    <div> © Copyright @ PAKURIVF</div>
+                    <div><a href="#">Privacy Policy</a><span> | </span><a href="#">Terms & Conditions</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

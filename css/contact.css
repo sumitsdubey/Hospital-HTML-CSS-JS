@@ -1,0 +1,51 @@
+:root{
+    --color-primary: #4E31AA;
+    --color-secondary: #FC5576;
+    --color-text-light : #efeded;
+    --color-text-dark : #272626;
+    font-family: 'Nunito', sans-serif;
+}
+p{
+    font-weight: 350;
+}
+.contact-page{
+    display: flex;
+    justify-content: center;
+    padding: 70px 0px;
+}
+.contact-page-main{
+    width: 85%;
+}
+.contact-page-main .feedback-form{
+    padding: 20px 10%;
+}
+.contact-page-main .feedback-form h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.contact-page-main .feedback-form .input-top{
+    display: flex;
+    justify-content: space-between;
+}
+.contact-page-main .feedback-form .input-top input{
+    width: 48%;
+}
+.contact-page-main .feedback-form input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    outline-color: var(--color-secondary);
+    border: 1px solid #dbcece;
+    border-radius: 5px;
+}
+.contact-page-main .feedback-form .submit-btn input{
+    padding: 8px;
+    border: none;
+    border-radius: 50px;
+    background: var(--color-secondary);
+    color: white;
+    transition: 0.5s ease;
+}
+.contact-page-main .feedback-form .submit-btn input:hover{
+    background: var(--color-primary);
+}

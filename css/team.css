@@ -1,0 +1,84 @@
+:root{
+    --color-primary: #4E31AA;
+    --color-secondary: #FC5576;
+    --color-text-light : #efeded;
+    --color-text-dark : #272626;
+    font-family: 'Nunito', sans-serif;
+}
+
+.team-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0px;
+}
+.team-section-container{
+    width: 85%;
+}
+.team-section-container .heading h1{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 55px;
+}
+
+.team-card-container .card-top, .card-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.team-card-container .card{
+    width: 29%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.team-card-container .card .img img{
+    width: 100%;
+    border-radius: 15px;
+}
+.team-card-container .card .dtls{
+    background:white;
+    padding: 18px 10px;
+    border-radius: 20px;
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    bottom: 4%;
+}
+.team-card-container .card .dtls p{
+    text-align: center;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+.team-card-container .card .dtls ul{
+    display: flex;
+    justify-content:center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.team-card-container .card .dtls ul li{
+    padding: 0px 10px;
+}
+.team-card-container .card .dtls ul li img{
+    height: 15px;
+    width: 15px;
+}
+.carousel-indicators{
+    bottom: -5%;
+    
+}
+.carousel-indicators [data-bs-target]{
+    background-color: #FC5576;
+}
+
+.carousel-control-prev-icon {
+    background-color: var(--color-secondary);
+    border-radius: 100px;
+}
+.carousel-control-next-icon {
+    background-color: var(--color-secondary);
+    border-radius: 100px;
+}

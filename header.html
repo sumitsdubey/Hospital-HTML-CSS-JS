@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/mediascreen.css">
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/main.js"></script>
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Header</title>
+</head>
+<body>
+    <header class="nav">
+        <div class="nav-body">
+            <div class="header-items">
+                <div class="header-left">
+                    <ul>
+                        <li><a href="#"><img src="images/fb.png" alt=""></a></li>
+                        <li><a href="#"><img src="images/instagram.png" alt=""></a></li>
+                        <li><a href="#"><img src="images/twitter.png" alt=""></a></li>
+                    </ul>
+                </div>
+                <div class="header-right">
+                    <ul>
+                        <li><img src="images/phone-call.png" alt="" style="margin-right: 10px;">+91-8235501444
+                        </li>
+                        <li style="margin-right: 0px;"><img src="images/mail.png" alt=""
+                                style="margin-right: 10px; width: 16px;">care@pakurivfandnursinghome.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="navigation-items">
+                <div class="item-left">
+                    <img src="images/logo-wbg.png" alt="">
+                    <div>
+                        <p
+                        class="logo-text"
+                            style="font-weight: 800; color: var(--color-primary); margin-top: 10px;">
+                            PAKUR NURSING HOME</p>
+                        <p
+                        class="logo-text1"
+                            style="font-weight: 500; color: var(--color-secondary); margin-top: -20px;">
+                            & MATERNITY CENTER</p>
+                    </div>
+
+                </div>
+                <div class="item-middle">
+                    <!-- navigation *****8 -->
+                    <nav class="navbar" id="navbar">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            
+                            
+                            <li><a href="aboutus.html">About Us <span></span></a>
+                                
+                            </li>
+                            <li><a href="#">Blogs <span></span></a>
+                                
+                            </li>
+                         <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Services
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">CT scan</a></li>
+                                <li><a class="dropdown-item" href="#">ECG Test</a></li>
+                                <li><a class="dropdown-item" href="#">Echocardiography</a></li>
+                                <li><a class="dropdown-item" href="#">Infertility Treatment</a></li>
+                                <li><a class="dropdown-item" href="#">Hysteroscopy</a></li>
+                                <li><a class="dropdown-item" href="#">Ureteroscopy</a></li>
+                                <li><a class="dropdown-item" href="#">Appendectomy</a></li>
+                                <li><a class="dropdown-item" href="#">Hydrocele and Hernia Surgery</a></li>
+                            </ul>
+                        </li>
+                            
+                               <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Our Team
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Doctors</a></li>
+                                <li><a class="dropdown-item" href="#">Staff Details</a></li>
+                               
+                            </ul>
+                            </li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </nav>
+                    <!-- navigation end ********* -->
+
+                </div>
+                <div class="item-right">
+                    <a href="#">Book Appointment</a>
+                </div>
+                <div class="menu-icon" id="menu-click-icon" onclick="menuClick()">
+                    ☰
+                </div>
+                <div class="menu-icon" id="menu-close-icon" onclick="menuClose()">
+                    X
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <div class="nav-mobile" id="nav-mobile">
+        <div class="nav-frame">
+            <nav class="mobile-navbar" id="mobile-navbar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    
+                    
+                    <li><a href="#">About Us <span></span></a>
+                        
+                    </li>
+                    <li><a href="#">Blogs <span></span></a>
+                        
+                    </li>
+                 <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Services
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">CT scan</a></li>
+                        <li><a class="dropdown-item" href="#">ECG Test</a></li>
+                        <li><a class="dropdown-item" href="#">Echocardiography</a></li>
+                        <li><a class="dropdown-item" href="#">Infertility Treatment</a></li>
+                        <li><a class="dropdown-item" href="#">Hysteroscopy</a></li>
+                        <li><a class="dropdown-item" href="#">Ureteroscopy</a></li>
+                        <li><a class="dropdown-item" href="#">Appendectomy</a></li>
+                        <li><a class="dropdown-item" href="#">Hydrocele and Hernia Surgery</a></li>
+                    </ul>
+                </li>
+                    
+                       <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Our Team
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Doctors</a></li>
+                        <li><a class="dropdown-item" href="#">Staff Details</a></li>
+                       
+                    </ul>
+                    </li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- testinomial -->
+
+    <!-- <div class="feedback-section">
+        <div class="feedback-frame">
+            <div class="feedback-container">
+                <div class="heading">
+                    <h1>What Paitents Say</h1>
+                </div>
+                <div class="feedback-card-section">
+
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="slide-card-group">
+                                    <div class="feedback-card">
+                                        <div class="card-inner">
+                                            <div class="image">
+                                                <img src="images/008.jpg" alt="">
+                                            </div>
+                                            <div class="data">
+                                                <p class="title">
+                                                    Mira Dias
+                                                </p>
+                                                <p class="degignation">
+                                                    Manager
+                                                </p>
+                                                <div class="star">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="text">
+                                            <p>It's important to note that cardiology is a complex field, and
+                                                patients may
+                                                have varying experiences depending on their specific condition
+                                                and
+                                                treatment
+                                                plan.</p>
+                                        </div>
+                                    </div>
+                                    <div class="feedback-card">
+                                        <div class="card-inner">
+                                            <div class="image">
+                                                <img src="images/009.jpg" alt="">
+                                            </div>
+                                            <div class="data">
+                                                <p class="title">
+                                                    Jeffrey Miller
+                                                </p>
+                                                <p class="degignation">
+                                                    Manager
+                                                </p>
+                                                <div class="star">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="text">
+                                            <p>It's important to note that cardiology is a complex field, and
+                                                patients may
+                                                have varying experiences depending on their specific condition
+                                                and
+                                                treatment
+                                                plan.</p>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="feedback-card">
+                                        <div class="card-inner">
+                                            <div class="image">
+                                                <img src="images/010.jpg" alt="">
+                                            </div>
+                                            <div class="data">
+                                                <p class="title">
+                                                    Guy Paras
+                                                </p>
+                                                <p class="degignation">
+                                                    Manager
+                                                </p>
+                                                <div class="star">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="text">
+                                            <p>It's important to note that cardiology is a complex field, and
+                                                patients may
+                                                have varying experiences depending on their specific condition
+                                                and
+                                                treatment
+                                                plan.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="slide-card-group">
+                                    <div class="feedback-card">
+                                        <div class="card-inner">
+                                            <div class="image">
+                                                <img src="images/008.jpg" alt="">
+                                            </div>
+                                            <div class="data">
+                                                <p class="title">
+                                                    Mira Dias
+                                                </p>
+                                                <p class="degignation">
+                                                    Manager
+                                                </p>
+                                                <div class="star">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="text">
+                                            <p>It's important to note that cardiology is a complex field, and
+                                                patients may
+                                                have varying experiences depending on their specific condition
+                                                and
+                                                treatment
+                                                plan.</p>
+                                        </div>
+                                    </div>
+                                    <div class="feedback-card">
+                                        <div class="card-inner">
+                                            <div class="image">
+                                                <img src="images/009.jpg" alt="">
+                                            </div>
+                                            <div class="data">
+                                                <p class="title">
+                                                    Jeffrey Miller
+                                                </p>
+                                                <p class="degignation">
+                                                    Manager
+                                                </p>
+                                                <div class="star">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="text">
+                                            <p>It's important to note that cardiology is a complex field, and
+                                                patients may
+                                                have varying experiences depending on their specific condition
+                                                and
+                                                treatment
+                                                plan.</p>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="feedback-card">
+                                        <div class="card-inner">
+                                            <div class="image">
+                                                <img src="images/010.jpg" alt="">
+                                            </div>
+                                            <div class="data">
+                                                <p class="title">
+                                                    Guy Paras
+                                                </p>
+                                                <p class="degignation">
+                                                    Manager
+                                                </p>
+                                                <div class="star">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="text">
+                                            <p>It's important to note that cardiology is a complex field, and
+                                                patients may
+                                                have varying experiences depending on their specific condition
+                                                and
+                                                treatment
+                                                plan.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="slide-card-group">
+                                    <div class="feedback-card">
+                                        <div class="card-inner">
+                                            <div class="image">
+                                                <img src="images/008.jpg" alt="">
+                                            </div>
+                                            <div class="data">
+                                                <p class="title">
+                                                    Mira Dias
+                                                </p>
+                                                <p class="degignation">
+                                                    Manager
+                                                </p>
+                                                <div class="star">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="text">
+                                            <p>It's important to note that cardiology is a complex field, and
+                                                patients may
+                                                have varying experiences depending on their specific condition
+                                                and
+                                                treatment
+                                                plan.</p>
+                                        </div>
+                                    </div>
+                                    <div class="feedback-card">
+                                        <div class="card-inner">
+                                            <div class="image">
+                                                <img src="images/009.jpg" alt="">
+                                            </div>
+                                            <div class="data">
+                                                <p class="title">
+                                                    Jeffrey Miller
+                                                </p>
+                                                <p class="degignation">
+                                                    Manager
+                                                </p>
+                                                <div class="star">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="text">
+                                            <p>It's important to note that cardiology is a complex field, and
+                                                patients may
+                                                have varying experiences depending on their specific condition
+                                                and
+                                                treatment
+                                                plan.</p>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="feedback-card">
+                                        <div class="card-inner">
+                                            <div class="image">
+                                                <img src="images/010.jpg" alt="">
+                                            </div>
+                                            <div class="data">
+                                                <p class="title">
+                                                    Guy Paras
+                                                </p>
+                                                <p class="degignation">
+                                                    Manager
+                                                </p>
+                                                <div class="star">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="text">
+                                            <p>It's important to note that cardiology is a complex field, and
+                                                patients may
+                                                have varying experiences depending on their specific condition
+                                                and
+                                                treatment
+                                                plan.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+</body>
+</html>

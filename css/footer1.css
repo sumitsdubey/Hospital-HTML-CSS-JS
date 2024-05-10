@@ -1,0 +1,138 @@
+:root{
+    --color-primary: #4E31AA;
+    --color-secondary: #FC5576;
+    --color-text-light : #efeded;
+    --color-text-dark : #272626;
+    font-family: 'Nunito', sans-serif;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #efeded;
+    margin-top: 30px;
+    padding-bottom: 50px;
+}
+.footer-frame{
+    width: 85%;
+}
+.footer-frame .line{
+    background: var(--color-primary);
+    border-radius: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 50px;
+    align-items: center;
+    margin-top: -45px;
+}
+.footer-frame .line h1{
+    color: var(--color-text-light);
+    font-weight: 400;
+    font-size: 32px;
+}
+.footer-frame .line a{
+    text-decoration: none;
+    background-color: var(--color-text-light);
+    padding: 10px 15px;
+    border-radius: 50px;
+    color: var(--color-primary);
+    transition: 0.6s ease;
+}
+.footer-frame .line a:hover{
+    background: var(--color-secondary);
+    color: var(--color-text-light);
+}
+.footer-frame .links{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.footer-frame .links .left-links{
+    width: 22%;
+}
+.footer-frame .links .item-left{
+    display: flex;
+    align-items: center;
+}
+.footer-frame .links .item-left img{
+    width: 50px;
+    height: 50px;
+}
+.footer-frame .links .left-links .text p{
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: 350;
+}
+.footer-frame .links .left-links .social-icon{
+    margin-top: 20px;
+}
+.footer-frame .links .middle-links{
+    width: 32%;
+}
+.footer-frame .links .middle-links h1, .footer-frame .links .right-links h1{
+    font-size: 25px;
+    color: var(--color-text-dark);
+}
+.footer-frame .links .navigation-links{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-frame .links .navigation-links ul{
+    list-style: none;
+    padding-left: 0px;
+}
+.footer-frame .links .navigation-links ul li{
+    margin-top: 12px;
+}
+.footer-frame .links .navigation-links ul li a{
+    text-decoration: none;
+    color: var(--color-text-dark);
+    font-size: 15px;
+    font-weight: 350;
+}
+.footer-frame .links .right-links{
+    width: 25%;
+}
+.footer-frame .links .right-links .time-date{
+    display: flex;
+    align-items: center;
+}
+.footer-frame .links .right-links .time-date img{
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+}
+.footer-frame .links .right-links .time-date p{
+    font-size: 15px;
+    font-weight: 350;
+    margin-left: 6px;
+    padding-top: 30px;
+}
+.footer-frame .links .right-links .call-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-primary);
+    margin-right: 28px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+.footer-frame .links .right-links .call-btn .call-text{
+    margin-left: 8px;
+}
+.footer-frame .links .right-links .call-btn .call-text h4{
+    margin-top: 10px;
+    font-size: 24px;
+    color: var(--color-text-light);
+}
+.footer-frame .links .right-links .call-btn .call-text p{
+    color: var(--color-text-light);
+}
+.copyright{
+    display: flex;
+    justify-content: space-between;
+}
+.copyright a{
+    text-decoration: none;
+    color: var(--color-text-dark);
+}

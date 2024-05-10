@@ -1,0 +1,107 @@
+
+.popup-section{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.537);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    visibility: hidden;
+}
+.popup-section .popup-frame{
+    width: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 1px rgb(136, 136, 233);
+    padding: 15px 20px;
+}
+.popup-section .popup-frame .popup-image{
+    display: flex;
+    justify-content: center;
+}
+.popup-section .popup-frame img{
+    align-items: center;
+    width: 50%;
+}
+.popup-section .popup-frame h1{
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: 42px;
+    font-weight: 400;
+}
+.popup-section .popup-frame h2{
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: 44px;
+    font-weight: 600;
+}
+.popup-section .popup-frame p{
+    text-align: center;
+    font-size: 45px;
+    margin-top: 0px;
+    font-weight: 550;
+    color: #4E31AA;
+    text-shadow: 1px 1px 2px #3a00fa, 1px 1px 2px #f52d55;
+}
+.popup-section .popup-frame p span{
+    font-weight: 500;
+    color: #FC5576;
+}
+.popup-section .popup-frame marquee{
+    color: #f52d55;
+    font-size: 18px;
+    padding: 20px;
+    
+}
+.close{
+    position: absolute;
+    top: 3%;
+    right:3%;
+    font-size: 30px;
+    background: rgb(255, 0, 140);
+    padding: 0px 13px;
+    border-radius: 100%;
+    color: aliceblue;
+    cursor: pointer;
+    transition: 0.6s ease;
+}
+.close:hover{
+    background: black;
+}
+
+@media (max-width:800px){
+    .popup-section .popup-frame h1{
+        font-size: 30px;
+    }
+    .popup-section .popup-frame h2{
+        font-size: 32px;
+    }
+    .popup-section .popup-frame p{
+        font-size: 30px;
+    }
+    .popup-section .popup-frame{
+        width: 60%;
+    }
+}
+
+@media (max-width:499px){
+    .popup-section .popup-frame h1{
+        font-size: 17px;
+    }
+    .popup-section .popup-frame h2{
+        font-size: 18px;
+    }
+    .popup-section .popup-frame p{
+        font-size: 17px;
+    }
+    .popup-section .popup-frame{
+        width: 70%;
+    }
+}
